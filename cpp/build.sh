@@ -1,0 +1,1 @@
+g++-11 -g -o etc/a.out $1/$2.cpp && <etc/in etc/a.out
