@@ -1,9 +1,13 @@
-#define _GLIBCXX_DEBUG
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main(){
-    vector<int> vec(3);
+int main(void){
+    int H, W;
+    cin >> H >> W;
 
-    for (int i=0; i<3; i++) cout << vec[i];
+    vector<vector<string>> P(H, vector<string>(W));
+    
+
+    return 0;
 }
